@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.SweetSourFish"
+    tools:showIn="@layout/activity_sweet_sour_fish">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sweet and Sour Fish with Lychee                         "
+        android:id="@+id/textView35"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView8"
+            android:layout_weight="0.21" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView11"
+        android:layout_marginTop="350dp"
+        android:layout_alignParentStart="true" >
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :
+            \n\t\t500g kuhlbarra barramundi fillet (any type of fish)
+            \n\t\t1 cup potato starch
+            \n\t\tpinch of salt and pepper
+            \n\t\toil for deep frying
+            \n\nSweet and sour lychee sauce :
+            \n\t\t2 tbsp oil
+            \n\t\t1 tsp minced garlic
+            \n\t\t1 tsp minced ginger
+            \n\t\t20g red bell peppers
+            \n\t\t20g green bell peppers
+            \n\t\t20g yellow bell peppers
+            \n\t\t4 tbsp tomato ketchup
+            \n\t\t1 tbsp oyster sauce
+            \n\t\t150 ml lychee syrup (from the can lychee)
+            \n\t\t6 lychees
+            \n\t\t½ salt (adjust to taste)
+            \n\t\t¼ white pepper
+            \n\nInstructions :
+            \n\n\t\tCut 20g of red, green and yellow bell peppers each into cubes
+            \n\n\t\tCut 500g kuhlbarra barramundi fillet into 2 long strips
+            \n\n\t\tMake 1.5 cm horizontal cuts at angle, stopping at the skin layer of the fillet
+            \n\n\t\tMake 4 vertical straight cuts, stopping at the skin layer of the fillet
+            \n\n\t\tSeason with pinch of salt and pepper
+            \n\n\t\tCoat fillets will 1 cup of potato starch, make sure all areas on the fish are coated including all the slits
+            \n\n\t\tShake off excess potato starch
+            \n\n\t\tHeat sufficient oil in a wok
+            \n\n\t\tHolding the two ends of the fillet
+            \n\n\t\tlower the fillet into the oil forming U shape so that it flowers up.
+            \n\n\t\tHold on the the fillet, slowly let go once the shape is fix
+            \n\n\t\tDeep-fry barramundi till golden brown
+            \n\n\t\tDrain and set aside
+            \n\n\t\tHeat 2 tbsp oil in a wok
+            \n\n\t\tAdd 1 tsp minced garlic, 1 tsp minced ginger, and bell peppers
+            \n\n\t\tStir fry till fragrant
+            \n\n\t\tAdd 4 tbsp tomato ketchup,
+            \n\n\t\t1 tbsp oyster sauce,
+            \n\n\t\tand 150 ml lychee syrup
+            \n\n\t\tMix well and season with
+            \n\n\t\t½ salt (adjust to taste)and ¼ white pepper
+            \n\n\t\tOnce the sauce thickens add 6 lychees
+            \n\n\t\tMix well and drizzle over the fried barramundi"
+            android:id="@+id/textView39"
+            android:textSize="20sp"
+            android:background="#e4e0e0"
+            android:layout_below="@+id/scrollView11"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

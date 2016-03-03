@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cassieleong.myrecipe">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MYRecipe"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".OnTour"
+            android:label="@string/title_activity_on_tour"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MeatRecipe"
+            android:label="@string/title_activity_chicken_recipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SweetFragrantChicken"
+            android:label="@string/title_activity_sweet_fragrant_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HainanChicken"
+            android:label="@string/title_activity_hainan_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SaltyBeanPork"
+            android:label="SaltyBeanPork"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KyotoRib"
+            android:label="@string/title_activity_kyoto_rib"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SesameChicken"
+            android:label="@string/title_activity_sesame_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HoneyBarbequePork"
+            android:label="@string/title_activity_honey_barbeque_pork"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SoySauceChicken"
+            android:label="@string/title_activity_soy_sauce_chicken"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SeafoodRecipe"
+            android:label="@string/title_activity_seafood_recipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SweetSourFish"
+            android:label="@string/title_activity_sweet_sour_fish"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TeochewSteamed"
+            android:label="@string/title_activity_teochew_steamed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BabySquids"
+            android:label="@string/title_activity_baby_squids"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AsamPrawn"
+            android:label="@string/title_activity_asam_prawn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calamari"
+            android:label="@string/title_activity_calamari"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GarlicPrawn"
+            android:label="@string/title_activity_garlic_prawn"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NasiLemak"
+            android:label="@string/title_activity_nasi_lemak"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VegieRecipe"
+            android:label="@string/title_activity_vegie_recipe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VegetarianOysterSauceBroccoli"
+            android:label="@string/title_activity_vegetarian_oyster_sauce_broccoli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EggplantSalad"
+            android:label="@string/title_activity_eggplant_salad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AcarVegie"
+            android:label="@string/title_activity_acar_vegie"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

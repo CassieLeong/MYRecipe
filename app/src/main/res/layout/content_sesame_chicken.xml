@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.SesameChicken"
+    tools:showIn="@layout/activity_sesame_chicken">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sesame Chicken                               "
+        android:id="@+id/textView23"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/pork"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_alignWithParentIfMissing="true"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true"
+        android:keepScreenOn="true"
+        android:fadingEdge="vertical"
+        android:background="#0c0c0c"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView7"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :
+            \n\t\t 800g Chicken Thigh
+            \n\t\t2Tbs Sesame Seed
+            \n\t\t1Tbs Chopped Shallots
+            \n\t\t1Tbs Minced Garlic
+            \n\nMarinate Ingredients :
+            \n\t\t1/2 Tbs Oyster Sauce
+            \n\t\t1/2 Tbs Sesame Oil
+            \n\t\t1 egg
+            \n\t\t2Tbs cornstarch
+            \n\nSeasoning Ingredients :
+            \n\t\t1 1/2Tbs Oyster Sauce
+            \n\t\t1Tsp Soy Sauce
+            \n\t\t2Tbs Honey
+            \n\t\t1Tsp Chinese Wine(Shao Xing)
+            \n\t\t1/4 Tsp Dark Soy Sauce
+            \n\t\t1Tsp White Pepper
+            \n\t\t\Tsp Sesame Oil
+            \n\t\t7Tbs Water
+            \n\n\Method :
+            \n\n\t\t1) Cut chicken thighs into small pieces and marinate the chicken with marinate ingredients for at least 30 minutes.
+            \n\n\t\t2) Pan fried sesame seeds with low heat without using oil.
+            \n\n\t\t3) Deep Fried the chicken thighs until golden crisp
+            \n\n\t\t4) Stir fried the minced garlic and chopped shallots with some oil for about 3 minutes
+            \n\n\t\t5) Then add the seasoning ingredients and water.
+            \n\n\t\t6) Once the sauce boiled, add the fried chicken thighs and stir fried for 2 minutes
+            \n\n\t\t7) Once the chicken thighs are coated evenly with the sauce, spread the sesame seeds all over the dish."
+            android:id="@+id/textView24"
+            android:layout_below="@+id/scrollView7"
+            android:layout_toEndOf="@+id/textView23"
+            android:textSize="20sp"
+            android:background="#e4e0e0" />
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MYRecipe</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="title_activity_on_tour">OnTour</string>
+    <string name="title_activity_chicken_recipe">ChickenRecipe</string>
+    <string name="title_activity_sweet_fragrant_chicken">SweetFragrantChicken</string>
+    <string name="title_activity_hainan_chicken">HainanChicken</string>
+    <string name="title_activity_salty_bean_pork">SaltyBeanPork</string>
+    <string name="title_activity_salty_bean_paste_pork">SaltyBeanPastePork</string>
+    <string name="title_activity_kyoto_rib">KyotoRib</string>
+    <string name="title_activity_sesame_chicken">SesameChicken</string>
+    <string name="title_activity_honey_barbeque_pork">HoneyBarbequePork</string>
+    <string name="title_activity_soy_sauce_chicken">SoySauceChicken</string>
+    <string name="title_activity_seafood_recipe">SeafoodRecipe</string>
+    <string name="title_activity_sweet_sour_fish">SweetSourFish</string>
+    <string name="title_activity_teochew_steamed">TeochewSteamed</string>
+    <string name="title_activity_baby_squids">BabySquids</string>
+    <string name="title_activity_asam_prawn">AsamPrawn</string>
+    <string name="title_activity_calamari">Calamari</string>
+    <string name="title_activity_garlic_prawn">GarlicPrawn</string>
+    <string name="title_activity_nasi_lemak">NasiLemak</string>
+    <string name="title_activity_vegie_recipe">VegieRecipe</string>
+    <string name="title_activity_vegetarian_oyster_sauce_broccoli">VegetarianOysterSauceBroccoli
+    </string>
+    <string name="title_activity_eggplant_salad">EggplantSalad</string>
+    <string name="title_activity_acar_vegie">AcarVegie</string>
+</resources>

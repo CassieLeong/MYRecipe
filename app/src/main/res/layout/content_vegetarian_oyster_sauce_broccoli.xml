@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.VegetarianOysterSauceBroccoli"
+    tools:showIn="@layout/activity_vegetarian_oyster_sauce_broccoli">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vegetarian Oyster Sauce Broccoli                     "
+        android:id="@+id/textView60"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView8"
+        android:layout_below="@+id/textView60"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/brocolli"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_alignWithParentIfMissing="true"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true"
+        android:keepScreenOn="true"
+        android:fadingEdge="vertical"
+        android:background="#0c0c0c"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:visibility ="visible"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/scrollView18"
+        android:layout_below="@+id/imageView8"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingredients :
+                    \n\t\t 2 Tomatoes
+                    \n\t\t Broccoli (shreded)
+                    \n\t\t 3 Slices Ginger
+                    \n\t\t 2Tbs Green Onion
+                    \n\nSeasoning :
+                    \n\t\t 1TbsVegetarian Oyster Sauce
+                    \n\nMethod :
+                    \n\n\t\t1) Cut the one of the tomato into slices and another one in tiny cube size(sauce).
+                    \n\n\t\t2) Slightly boiled the broccoli.
+                    \n\n\t\t3) Stir fried the ginger and onion with some oil.
+                    \n\n\t\t4) Add the cube size tomatoes with some salt to taste.
+                    \n\n\t\t5) Then add the broccoli and stir fried.
+                    \n\n\t\t6) Lastly, add the vegetarian oyster sauce."
+        android:id="@+id/textView61"
+        android:textSize="20sp"
+        android:background="#e4e0e0"
+        android:layout_alignTop="@+id/scrollView18"
+        android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

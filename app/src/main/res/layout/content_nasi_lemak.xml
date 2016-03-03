@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.NasiLemak"
+    tools:showIn="@layout/activity_nasi_lemak">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nasi Lemak                     "
+        android:id="@+id/textView51"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view6"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.21" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView16"
+        android:layout_marginTop="320dp"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rice :
+            \n\t\t2 cups basmati rice
+            \n\t\t250ml of coconut milk
+            \n\t\t450ml water
+            \n\t\t5 knots of pandan leaves
+            \n\t\t2 tsp salt (adjust to taste)
+            \n\nSambal Chili :
+            \n\t\t1 cup oil
+            \n\t\t300g dried chili paste
+            \n\t\t20 shallots
+            \n\t\t2 onions
+            \n\t\t6 clove garlic
+            \n\t\t50g chopped palm sugar
+            \n\t\t80g white sugar (adjust to taste)
+            \n\t\t1 tbsp salt
+            \n\t\t100g large ikan bilis
+            \n\t\t100g raw peanuts with skin
+            \n\t\t1 cucumber sliced into discs
+            \n\t\t500 ml oil
+            \n\t\t10 ikan kuning (yellowstripe scad)
+            \n\t\t½ tsp salt
+            \n\t\t½ tsp white pepper powder
+            \n\t\t1 tsp turmeric powder
+            \n\t\t4 large chicken wings
+            \n\t\t½ tsp fennel seed powder
+            \n\t\t½ tsp cumin powder
+            \n\t\t½ tsp coriander powder
+            \n\t\t1 tsp turmeric powder
+            \n\t\t½ tsp white pepper powder
+            \n\t\t¼ tsp chili powder
+            \n\t\t½ tsp salt
+            \n\t\t1 tbsp corn flour
+            \n\t\t1 tbsp rice flour
+            \n\t\t100ml coconut cream (Kara brand)
+            \n\nMarinate ikan kuning :
+            \n\n\t\tAdd ½ tsp salt, ½ tsp white pepper powder,1 tsp turmeric powder to 10 ikan kuning
+            \n\n\t\tMix well and let it marinate in the fridge for 2 hours
+            \n\n\t\tMarinate chicken wing
+            \n\n\t\tAdd ½ tsp fennel seed powder, ½ tsp cumin powder, ½ tsp coriander powder, 1 tsp turmeric powder, ½ tsp white pepper powder, ¼ tsp chili powder, ½ tsp salt, 1 tbsp corn flour, 1 tbsp rice flour, 100ml coconut cream (Kara brand) to 4 large chicken wings
+            \n\n\t\tMix well and let it marinate in the fridge for 2 hours or more
+            \n\nCoconut rice :
+            \n\n\t\tWash 2 cups basmati rice
+            \n\n\t\tAdd washed basmati rice to rice cooker
+            \n\n\t\tThen add 250ml of coconut milk, 450ml water, 5 knots of pandan leaves, 2 tsp salt (adjust to taste),
+            \n\n\t\tCover and cook, once done mix and loosen the rice
+            \n\nSambal Chili :
+            \n\n\n\t\tBlend 20 shallots, 2 onions, 6 cloves garlic in a food processor until fine
+            \n\n\n\t\tAdd 1 cup of oil to pan
+            \n\n\t\tAdd blended shallot mixture to pan
+            \n\n\t\tCook on low heat till shallot mixture turns translucent (around 10 mins)
+            \n\n\t\tAdd 300g dried chili paste, 50g chopped palm sugar, 80g white sugar (adjust to taste), 1 tbsp salt (adjust to taste)
+            \n\n\t\tStir and cook for another 20 mins
+            \n\ntDeep Frying :
+            \n\n\t\tIn a wok heat 500ml oil to 180 degrees C
+            \n\n\t\tDeep fry 100g large ikan bilis in 180 degrees C oil
+            \n\n\t\tRemove when they turn golden and start to float
+            \n\n\t\tDrain them on paper towels
+            \n\n\t\tNext deep fry 100g raw peanuts
+            \n\n\t\tFry just them for just under a minute
+            \n\n\t\tRemove and drain them on paper towels
+            \n\n\t\tAdd marinated ikan kuning and fry for around 6-8 mins depending on how crispy you like them, we prefer just a slight crispy on the outside and keep the meat inside not overly dried up. Once done, remove and drain them on paper towels
+            \n\n\t\tAdd marinated chicken wings fry for around 7-10 mins depending the size of the wings or chicken usage. Once they turn golden brown, remove one piece and cut at the thickest end to check if its cooked through. Once done, remove and drain them on paper towels
+            \n\nTo serve :
+            \n\n\t\tOnce all the elements to the Nasi lemak are done, you can serve them self-service style or portion them out individually."
+            android:id="@+id/textView52"
+            android:textSize="20sp"
+            android:background="#e4e0e0"
+            android:layout_below="@+id/scrollView16"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MeatRecipe"
+    tools:showIn="@layout/activity_meat_recipe">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#e4dfdf"
+        android:text="               Meat Recipes  "
+        android:background="#f90818"
+        android:textStyle="bold"
+        android:textSize="25dp" />
+
+    // scrollview for imagebutton, you need a linear layout to suppor unlike textview, make write the code in java too.
+    <ScrollView
+        android:visibility ="visible"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sweet Fragrant Chicken                                     "
+                android:id="@+id/textView10" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton4"
+                android:scrollbars="vertical"
+                android:onClick="SweetFragrantChicken"
+                android:layout_below="@+id/scrollView2"
+                android:layout_toEndOf="@+id/scrollView2"
+                android:src="@mipmap/gamhionggai"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Hainan Chicken                                                "
+                android:id="@+id/textView11" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:onClick="HainanChicken"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton5"
+                android:layout_below="@+id/imageButton4"
+                android:layout_toEndOf="@+id/imageButton4"
+                android:src="@mipmap/hainanese" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Salty Bean Pork                                                        "
+                android:id="@+id/textView12" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton6"
+                android:layout_below="@+id/imageButton5"
+                android:layout_toEndOf="@+id/imageButton5"
+                android:src="@mipmap/xiandoujiangmenhuarou"
+                android:onClick="SaltyBeanPork" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Kyoto Ribs                                                             "
+                android:id="@+id/textView13" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:onClick="KyotoRib"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton7"
+                android:layout_below="@+id/imageButton6"
+                android:layout_toEndOf="@+id/imageButton6"
+                android:src="@mipmap/jingdugu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Sesame Chicken                                                             "
+                android:id="@+id/textView14" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton8"
+                android:onClick="SesameChicken"
+                android:layout_below="@+id/imageButton7"
+                android:layout_toEndOf="@+id/imageButton7"
+                android:src="@mipmap/pork" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nasi Lemak                                                             "
+                android:id="@+id/textView50" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton20"
+                android:onClick="NasiLemak"
+                android:layout_below="@+id/imageButton7"
+                android:layout_toEndOf="@+id/imageButton7"
+                android:src="@mipmap/nasilemak" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Honey Barbeque Pork                                                             "
+                android:id="@+id/textView25" />
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:id="@+id/imageButton10"
+                android:onClick="HoneyBarbequePork"
+                android:layout_below="@+id/imageButton8"
+                android:layout_toEndOf="@+id/imageButton8"
+                android:src="@mipmap/charsiu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Soy Sauce chicken                                                             "
+                android:id="@+id/textView26" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:scrollbarStyle="insideOverlay"
+                android:isScrollContainer="true"
+                android:fadeScrollbars="true"
+                android:keepScreenOn="true"
+                android:fadingEdge="vertical"
+                android:nestedScrollingEnabled="true"
+                android:clickable="true"
+                android:layout_alignParentStart="true"
+                android:scrollbars="vertical"
+                android:layout_height="80dp"
+                android:onClick="SoySauceChicken"
+                android:id="@+id/imageButton11"
+                android:layout_below="@+id/imageButton10"
+                android:layout_toEndOf="@+id/imageButton10"
+                android:src="@mipmap/jiangyouji" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

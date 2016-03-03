@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.HainanChicken"
+    tools:showIn="@layout/activity_hainan_chicken">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hainan Chicken                         "
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView3"
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/hainanese"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_alignWithParentIfMissing="true"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true"
+        android:keepScreenOn="true"
+        android:fadingEdge="vertical"
+        android:background="#0c0c0c"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :  \n\t\t1/2 Chicken \n\t\t1Tbs Salt \n\nSeasoning Ingredients : \n\t\t2 Tbs Oyster Sauce \n\t\t1 Tbs Sweet Soy Sauce \n\t\t1Tsp Dark Soy Sauce \n\t\t1Tsp Sesame Oil \n\t\t6 Tbs Chicken Broth \n\t\t1/2 Tsp Sugar \n\t\t2 Tbs Chopped Green Onion \n\t\t1/3 Cup Water
+            \n\nMethod:
+              \n\n\t\t1) Clean the chicken then evenly scrub salt over the chicken and let it sits for an hour.
+              \n\n\t\t2) Steam the chicken for 30 minutes then let it sits in the steamer for 10 minutes.
+              \n\n\t\t3) Cut the chicken in pieces and spread the green onion for garnish.
+              \n\n\t\t4) Mix and cook the seasoning ingredients in a pan for 5 minutes
+              \n\n\t\t5) Lastly, spread the sauce over the chicken.
+              \n\nCredit by: Yong Swee Ha"
+            android:id="@+id/textView18"
+            android:layout_below="@+id/scrollView4"
+            android:layout_toEndOf="@+id/textView17"
+            android:textSize="20sp"
+            android:background="#e4e0e0" />
+
+    </ScrollView>
+
+
+</RelativeLayout>

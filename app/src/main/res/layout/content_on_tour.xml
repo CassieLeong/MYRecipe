@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.OnTour"
+    tools:showIn="@layout/activity_on_tour"
+    android:id="@+id/oti">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dip"
+        android:id="@+id/imageView"
+        android:src="@mipmap/malaysia1"
+        android:nestedScrollingEnabled="false"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Malaysia Cuisine 101"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#6A5ACD" />
+
+
+    <ScrollView android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="355dip"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Malaysian cuisine consists of cooking traditions and practices found in Malaysia, and reflects the multiethnic makeup of its population. The vast majority of Malaysia population can roughly be divided among three major ethnic groups: Malays, Chinese and Indians.The remainder consists of the indigenous peoples of Sabah and Sarawak in East Malaysia, the Orang Asli of Peninsular Malaysia, the Peranakan and Eurasian creole communities, as well as a significant number of foreign workers and expatriates. As a result of historical migrations, colonisation by foreign powers, and its geographical position within its wider home region, Malaysia&apos;s culinary style in the present day is primarily a melange of traditions from its Malay, Chinese, Indian, Indonesian and ethnic Bornean citizens, with heavy to light influences from Thai, Portuguese, Dutch, and British cuisines, to name a few. This resulted in a symphony of flavours, making Malaysian cuisine highly complex and diverse.  Because Peninsular Malaysia shares a common history with Singapore, it is common to find versions of the same dish across both sides of the border regardless of place of origin, such as laksa and chicken rice. Also because of their proximity, historic migrations and close ethnic and cultural kinship, Malaysia shares culinary ties with Indonesia,[2] as both nations often share certain dishes, such as satay, rendang and sambal. Chilli peppers are indispensable to Malaysian kitchens, and both fresh and dried chilies are used. Chillies come in several sizes, shapes and even colours. As a general rule, two type of chilli cultivars are the most commonly available: the bird&apos;s eye chili (cili padi), although small in size are extremely pungent and very hot, and longer varieties which tend to be a lot milder. Green chillies are more peppery in taste while red chillies, green chillies which have been left to ripen, have a slightly sweeter heat. If a milder flavour is preferred, the seeds and membranes would be removed from the chili pods before it is cut, or the chillies would be left whole and removed prior to serving. Some common uses include but are not limited to grinding the chillies into a paste or sambal, chopping fresh chillies as a condiment or garnish, and pickling whole or cut chillies.  Belacan is essential to Malaysian cooking. It is a type of shrimp paste which is pressed into a block and sun-dried. In its raw form it has a very pungent, and some would say awful, smell. Once cooked however, the shrimp paste&apos;s aroma and flavour mellows out and contributes an inimitable depth of flavour to any dish. To prepare belacan for use, a typical method involves wrapping a small amount of the shrimp paste block in foil, which is then roasted over a flame or placed into a pre-heated oven. Belacan is most commonly pounded or blended with local chilli peppers, shallots and lime juice to make the most popular and ubiquitous relish in Malaysia, sambal belacan. Belacan is also crumbled into a ground spice paste called rempah, which will usually include garlic, ginger, onions or shallots, and fresh or dried chilli peppers. A rempah paste is similar in form and function to an Indian wet masala paste or Thai curry paste, and is often browned and caramelised (Malay: tumis) to mellow the raw flavours of its component ingredients and produce a harmonised finish."
+        android:id="@+id/textView5"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true"
+        android:keepScreenOn="true"
+        android:fadingEdge="vertical"
+        android:nestedScrollingEnabled="true"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:textColor="#778899"
+        android:layout_marginTop="20dp" />
+    </ScrollView>
+
+</RelativeLayout>

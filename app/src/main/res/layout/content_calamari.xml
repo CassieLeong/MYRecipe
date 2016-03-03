@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.Calamari"
+    tools:showIn="@layout/activity_calamari">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Five Speice Calamari with Wasabi Mayo                      "
+        android:id="@+id/textView47"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <com.google.android.youtube.player.YouTubePlayerView
+            android:id="@+id/youtube_view4"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.21" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView14"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :
+            \n\t\t3 large calamari aka squid (skinned and cleaned)
+            \n\t\t1 stalk spring onion (chopped)
+            \n\t\tOil for deep-frying
+            \n\nbatter :
+            \n\t\t¾ cup cornstarch
+            \n\t\t¼ cup plain flour
+            \n\t\t1 tsp five spice powder
+            \n\t\t½ tsp salt
+            \n\t\t¼ tsp pepper
+            \n\t\t1 egg
+            \n\t\t¼ cup water
+            \n\nwasabi mayo :
+            \n\t\t½ cup japanese mayo
+            \n\t\t20g wasabi (adjust to taste)
+            \n\t\t2-3 tbsp honey (adjust to taste)
+            \n\t\t1 tbsp light soy sauce
+            \n\t\tJuice from ½ a lemon
+            \n\nInstructions :
+            \n\n\t\tSkin and remove insides from 3 large calamari
+            \n\n\t\tCut calamari into rings
+            \n\n\t\tTo make batter sift ¾ cup cornstarch, ¼ cup plain flour, add 1 tsp five spice powder, ½ tsp salt, ¼ tsp pepper, 1 egg, and ¼ cup water
+            \n\n\t\tMix well and add in calamari rings
+            \n\n\t\tCoat the squid rings with the batter evenly
+            \n\n\t\tHeat enough oil in a wok, deep-fry calamari rings until golden brown
+            \n\n\t\tDrain and set aside
+            \n\n\t\tTo make wasabi mayo, mix ½ cup japanese mayo,
+            \n\n\t\t20g wasabi (adjust to taste),
+            \n\n\t\t2-3 tbsp honey (adjust to taste),
+            \n\n\t\t1 tbsp light soy sauce,
+            \n\n\t\tJuice from ½ a lemon,
+            \n\n\t\tMix well and set aside,
+            \n\n\t\tDrizzle 2 tbsp of wasabi mayo over the fried calamari rings
+            \n\n\t\tSprinkle chopped spring onions and toss evenly
+            \n\n\t\tServe with lemon slices and wasabi mayo"
+            android:id="@+id/textView44"
+            android:textSize="20sp"
+            android:background="#e4e0e0"
+            android:layout_below="@+id/scrollView14"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

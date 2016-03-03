@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.BabySquids"
+    tools:showIn="@layout/activity_baby_squids">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Deep Fried Honey Baby Squids                      "
+    android:id="@+id/textView42"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:background="#f6d3d2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view2"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView13"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :
+            \n\t\t1 kg baby squid
+            \n\t\t1 cup rice flour
+            \n\t\t1 tsp salt
+            \n\t\t1 tsp pepper
+            \n\t\tOil for frying
+            \n\nSauce :
+            \n\t\t½ cup water
+            \n\t\t¼ cup honey
+            \n\t\t2 tbsp light soy sauce
+            \n\t\t½ tsp dark soy sauce
+            \n\t\t½ tsp salt (adjust to taste)
+            \n\nInstructions :
+            \n\n\t\tAdd 1 cup rice flour to a deep dish
+            \n\n\t\tSeason with 1 tsp salt and 1 tsp pepper
+            \n\n\t\tMix well
+            \n\n\t\tAdd 1 kg baby squid
+            \n\n\t\tCoat the baby squid evenly and set aside
+            \n\n\t\tHeat sufficient oil in a wok, deep-fry baby squid till golden brown
+            \n\n\t\tDrain and set aside
+            \n\n\t\tHeat ½ cup water in wok
+            \n\n\t\tAdd ¼ cup honey, 2 tbsp light soy sauce, ½ tsp dark soy sauce, and ½ tsp salt (adjust to taste)
+            \n\n\t\tReduce until sauce thickens
+            \n\n\t\tAdd fried baby squid and toss evenly"
+            android:id="@+id/textView43"
+            android:textSize="20sp"
+            android:background="#e4e0e0"
+            android:layout_below="@+id/scrollView13"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+</RelativeLayout>

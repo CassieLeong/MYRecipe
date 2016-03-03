@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.SweetFragrantChicken"
+    tools:showIn="@layout/activity_sweet_fragrant_chicken">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sweet Fragrant Chicken      "
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView2"
+        android:layout_toEndOf="@+id/textView15"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:src="@mipmap/gamhionggai"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_alignWithParentIfMissing="true"
+        android:isScrollContainer="true"
+        android:fadeScrollbars="true"
+        android:keepScreenOn="true"
+        android:fadingEdge="vertical"
+        android:background="#0c0c0c"
+        android:layout_alignParentEnd="false" />
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:text="Ingredients : \n\t\tA : 850g Chicken Thigh \n\t\tB : 3Tbs Chopped Dried Shrimp \n\t\t6 Chopped Garlic \n\t\t5 Curry leaves \n\t\t6 Bird Eye Chilly
+         \n\nMarinate Ingredients : \n\t\t3Tbs Soy Sauce \n\t\t1Tsp White Pepper \n\t\t2Tbs Corn Starch \n\nSeasoning Ingredients : \n\t\t1/2 Cup Lime Juice \n\t\t2 1/2 Tsp Sugar \n\t\t3Tbs Oyster Sauce
+         \n\nMethod : \n\n\t\t1) Fried the ingredient A after marinating with soy sauce, white pepper and corn starch for at least 30 minutes. \n\n\t\t2) Stir fried the dried shrimp, garlic then curry leaves and bird eye chillies until fragrant. \n\n\t\t3) Add the seasoning ingredients and stir fried evenly with the chicken. \n\nCredit by: Yong Swee Ha"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/imageView2"
+        android:layout_toEndOf="@+id/textView17"
+        android:textSize="20sp"
+        android:background="#e4e0e0" />
+
+    </ScrollView>
+
+</RelativeLayout>

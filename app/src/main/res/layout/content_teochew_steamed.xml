@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cassieleong.myrecipe.TeochewSteamed"
+    tools:showIn="@layout/activity_teochew_steamed">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Teochew Steamed Fish                         "
+        android:id="@+id/textView40"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#f6d3d2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_view1"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView8"
+        android:layout_weight="0.21" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView12"
+        android:layout_marginTop="320dp"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients :
+            \n\t\t1 white pomfret fish
+            \n\t\t20g sliced ginger
+            \n\t\t10g ginger strands
+            \n\t\t3 chinese mushrooms (cut into strips)
+            \n\t\t50g sour/salted vegetables (cut into strips)
+            \n\t\t4 salted plums
+            \n\t\t2 tomatoes (quartered)
+            \n\t\tsalt to taste
+            \n\t\t1 tbsp light soy sauce
+            \n\t\t1 tbsp chinese rice wine
+            \n\t\t50 ml water (optional)
+            \n\t\t5g spring onions strands
+            \n\t\t5g fresh coriander
+            \n\nInstructions :
+            \n\t\tCut 20g of ginger into slices and 10g of ginger into strands
+            \n\n\t\tCut 3 soaked chinese mushrooms and 50g sour vegetables into strips
+            \n\n\t\tQuarter 2 tomatoes
+            \n\n\t\tCut two slits in the white pomfret right till the bone at an angle on both sides
+            \n\n\t\tSeason with salt to taste
+            \n\n\t\tAdd half of the ginger slices into the cavity
+            \n\n\t\tOn a steaming tray add half the sour vegetables, half the mushroom strips and the remaining ginger slices
+            \n\n\t\tAdd the white pomfret on top
+            \n\n\t\tAdd 4 salted plums
+            \n\n\t\tLay the tomatoes around the pomfret
+            \n\n\t\tAdd 1 tbsp light soy sauce
+            \n\n\t\tand 1 tbsp chinese rice wine
+            \n\n\t\tAdd the remaining sour vegetables, mushroom strips and ginger strands on top
+            \n\n\t\tAdd 50 ml of water (optional)
+            \n\n\t\tSteam in high heat for 8-10 mins (depending on the size of the fish)
+            \n\n\t\tCut spring onions into strands
+            \n\n\t\tGarnish with spring onions and fresh coriander"
+            android:id="@+id/textView41"
+            android:textSize="20sp"
+            android:background="#e4e0e0"
+            android:layout_below="@+id/scrollView12"
+            android:layout_alignParentStart="true" />
+
+    </ScrollView>
+
+
+</RelativeLayout>
